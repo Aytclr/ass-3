@@ -7,28 +7,27 @@
 
 body{
     border: 2px solid red;
-    text-align: center;
-
-    height: 100vh;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
 }
 
 nav{
-    margin: 3rem 0;
-}
-.container{
-    width: 85%;
-    
-}
-.formwallet{
-    border: 2px solid red;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    border: 2px solid blue;
+    height: 10vh;
 
+}
+section{
+    border: 2px solid rgb(133, 78, 133);
+    height: 70vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.container{
+    border: 2px solid orange;
+    width: 55%;
+}
+
+footer{
+    height: 20vh;
 }
