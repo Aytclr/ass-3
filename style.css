@@ -131,6 +131,9 @@ section{
     margin-top: 1rem;
 
 }
+.table{
+    width: 100%;
+}
 
 .gosterge1{
     border: 1px solid rgba(116, 116, 116, 0.555);
@@ -175,7 +178,7 @@ section{
     border: 1px solid rgba(116, 116, 116, 0.555);
     padding: 0.7rem;
 }
-.gelirbox{
+.gelirbox,.gelirbox2,.gelirbox3{
     width: 45%;
     border: 1px solid rgba(116, 116, 116, 0.555);
 }
@@ -197,6 +200,8 @@ section{
 .table td {
     width: 45%;
     border: 1px solid rgba(116, 116, 116, 0.555);
+    padding: 1rem;
+    font-size: 1rem;
 
 }
 
