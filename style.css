@@ -194,7 +194,11 @@ section{
     cursor: pointer;
 }
 
+.table td {
+    width: 45%;
+    border: 1px solid rgba(116, 116, 116, 0.555);
 
+}
 
 
 
