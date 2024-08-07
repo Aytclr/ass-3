@@ -8,3 +8,24 @@ let gelir = document.querySelector('#gelir')
 let total = 0;
 let gelir1 = gelir.value;
 let temizle = document.querySelector('.temizle')
+
+let harcamaListesi2=[]
+
+
+
+
+document.getElementById("kaydet").addEventListener("click",(e)=>{
+
+    e.preventDefault()
+    const yeniHarcama ={
+        tarih:tarih.value,
+        miktar:miktar.value,
+        aciklama:harcamaalani.value,
+        id: new Date().getTime()
+
+    };
+
+    harcamaListesi2.push(yeniHarcama);
+    console.log(harcamaListesi2);
+
+})
