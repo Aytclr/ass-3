@@ -36,10 +36,16 @@ document.getElementById("kaydet").addEventListener("click",(e)=>{
     harcamaBody.innerHTML+=`
     <tr>
     <td>${tarih}</td>
+    <td>${miktar}</td>
+    <td>${aciklama}</td>
+    <td><button class="trash" ><i class="fa-solid fa-trash "></i</button></td>
     </tr>
-
-    
-    
     `;
+
+    document.querySelectorAll(".trash").forEach((sil)=>{
+        sil.onclick=()=>{
+            sil.parentElement.parentElement.remove()
+        }
+    })
 
  };
