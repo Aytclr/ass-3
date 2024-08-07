@@ -2,7 +2,7 @@
 let date = document.getElementById("tarih");
 let miktar = document.getElementById("miktar");
 let harcamaalani = document.getElementById("harcamaalani");
-let table = document.querySelector(".table")
+let harcamaBody = document.querySelector(".table")
 let ekle = document.querySelector('.ekle')
 let gelir = document.querySelector('#gelir')
 let total = 0;
@@ -26,6 +26,20 @@ document.getElementById("kaydet").addEventListener("click",(e)=>{
     };
 
     harcamaListesi2.push(yeniHarcama);
-    console.log(harcamaListesi2);
 
-})
+    harcamayiShowScreen(yeniHarcama)
+
+
+});
+
+ const harcamayiShowScreen=({id,miktar,tarih,aciklama})=>{
+    harcamaBody.innerHTML+=`
+    <tr>
+    <td>${tarih}</td>
+    </tr>
+
+    
+    
+    `;
+
+ };
