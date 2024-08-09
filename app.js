@@ -49,3 +49,11 @@ document.getElementById("kaydet").addEventListener("click",(e)=>{
     })
 
  };
+
+ ekle.addEventListener("click",(e)=>{
+
+e.preventDefault()
+let gelir = gelir + Number(gelir.value);
+
+
+ })
